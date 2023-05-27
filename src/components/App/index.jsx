@@ -8,6 +8,7 @@ import { Reservation } from '../Reservation';
 // import { JourneyPicker } from '../JourneyPicker';
 // import { useEffect, useState } from 'react';
 
+
 export const App = () => (
   <>
     <Header />
@@ -15,16 +16,17 @@ export const App = () => (
     <Footer />
   </>
 );
-  const router= createBrowserRouter([
-    {
-      path: '/',
-      element: <Home/>,
-    },
-    {
-      path: '/reservation',
-      element: < Reservation />,
-    },
-  ]);
-createRoot(document.querySelector('#app')).render(
-  <App/>
-);
+const router= createBrowserRouter([
+  {
+    path: '/',
+    element: <Home/>,
+  },
+  {
+    path: '/reservation',
+    element: < Reservation />,
+  },
+]);
+  
+// createRoot(document.querySelector('#app')).render(
+//   <App/>
+// );
