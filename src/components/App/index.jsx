@@ -5,7 +5,7 @@ import { Footer } from '../Footer';
 import { Header } from '../Header';
 import { Home } from '../Home';
 import { Reservation } from '../Reservation';
-import { JourneyPicker } from '../JourneyPicker';
+// import { JourneyPicker } from '../JourneyPicker';
 // import { useEffect, useState } from 'react';
 
 export const App = () => (
@@ -26,5 +26,5 @@ export const App = () => (
     },
   ]);
 createRoot(document.querySelector('#app')).render(
-  <RouterProvider router={router} />
+  <App/>
 );

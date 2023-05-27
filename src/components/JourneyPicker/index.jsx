@@ -10,12 +10,7 @@ export const JourneyPicker = ({ onJourneyChange }) => {
   const handleSubmit=(event)=> {
     event.preventDefault();
     console.log(`Odesílám formulář s cestou ${fromCity} ${toCity} ${date}`)
-  
   };
-
-
-
-
   <div className="journey-picker container">
     <h2 className="journey-picker__head">Kam chcete jet?</h2>
     <div className="journey-picker__body">
